@@ -9,6 +9,7 @@ const port = process.env.PORT_NUMBER;
 const connectionString  = process.env.CONNECTION_STRING;
 
 const customerRoute = require('./routes/customerRoute');
+const authRoute = require('./routes/authRoute')
 
 app.use(cors());
 app.use(express.json());
@@ -25,3 +26,4 @@ mongoose.connect(connectionString)
     })
 
 app.use(customerRoute);
+app.use(authRoute);
