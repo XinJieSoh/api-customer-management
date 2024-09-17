@@ -16,3 +16,5 @@ To run it:
 ```sh
 npm run dev
 ```
+
+[Click here for frontend code](https://github.com/XinJieSoh/vue-customer-information-management.git)
